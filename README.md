@@ -11,7 +11,7 @@ A simple and elegant Daily Quote website built using HTML, CSS, and JavaScript. 
 
 ## Demo
 
-You can see the live demo here: *(Add your live URL if hosted)*
+You can see the live demo here: *https://shrutinarad16.github.io/Quotes/*
 
 ## Technologies Used
 
