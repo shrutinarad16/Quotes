@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+}
+
+body{
+    background-color: #bbc6fa;
+}
+
+.quote-box {
+    background-color: #fff;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.quote-box h2 {
+    position: relative;
+    color: rgb(148, 5, 146);
+    font-size: 36px;
+}
+
+.quote-box h2::after {
+    content: '';
+    position: absolute;
+    width: 75px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: rgb(222, 125, 14);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.quote-box blockquote {
+    font-size: 26px;
+    line-height: 2.2;
+    margin: 20px 0;
+    color: rgb(14, 6, 133);
+}
+
+.quote-box blockquote::before, .quote-box blockquote::after {
+    content: '"';
+}
+
+.quote-box span{
+    display: block;
+    margin-top: 20px;
+    float: right;
+    position: relative;
+    font-size: 20px;
+}
+
+.quote-box span::before {
+    content: '';
+   width: 20px;
+   height: 2px;
+   background-color: rgb(23, 124, 229);
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
+
+.quote-box div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.quote-box button {
+    background-color: rgb(23, 124, 229);
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid rgb(23, 124, 229);
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+   padding: 16px 32px;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-box img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.quote-box button:hover {
+    background-color: #fff;
+    color: rgb(23, 124, 229);
+}
